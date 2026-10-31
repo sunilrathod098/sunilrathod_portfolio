@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing & Build Outputs
+dist/
+build/
+coverage/
+
+# Environment and sensitive keys
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+credentials.json
+
+# Editor / System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
